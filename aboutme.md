@@ -4,13 +4,16 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Wait, what?
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- This page is supposed to talk about me?
+- Add something else here probably later
+- Like my habit of forgetting
+  1. cheeky
+  2. i like it
 
 What else do you need?
 
 ### my history
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+To be honest, I'm having some trouble remembering right now, so why don't you just talk directly to me **[_here_]**(emailTo:vishg8@outlook.com) and I will answer **all** your questions.

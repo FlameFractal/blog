@@ -3,4 +3,5 @@ layout: post
 title: First post!
 ---
 
-This is my first post, how exciting!
+Checking out this new space! Feels rad. 
+Time to learn some markdown and make this pretty.
