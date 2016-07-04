@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://flamefractal.github.io"
+url: "http://username.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -27,7 +27,6 @@ navbar-links:
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
     - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://vishalgauba.me"
 
 # Image to show in the navigation bar - image must be a square (width = height)
@@ -44,7 +43,7 @@ author:
   facebook: vishal.gauba  # eg. daattali
   github: flamefractal    # eg. daattali
   twitter: vishal_gauba   # eg. daattali
-  linkedin: vishal-gauba-0b95aa104  # eg. "pub/dean-attali/8/946/143"
+  linkedin: in/vishal-gauba-0b95aa104  # eg. "pub/dean-attali/8/946/143"
   stackoverflow: yourlink  # eg. "3943160/daattali"
  
 # Select which links to show in the footer
@@ -114,10 +113,8 @@ prose:
     - 404.html
     - LICENSE
     - feed.xml
-    - _config.yml
     - /_layouts
     - /_includes
-    - /css
     - /img
     - /js
   metadata:
