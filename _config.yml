@@ -38,13 +38,13 @@ avatar: "/img/avatar.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Vishal Gauba
   email: "vishg8@outlook.com"
   facebook: vishal.gauba  # eg. daattali
   github: flamefractal    # eg. daattali
   twitter: vishal_gauba   # eg. daattali
   linkedin: in/vishal-gauba-0b95aa104  # eg. "pub/dean-attali/8/946/143"
-  stackoverflow: yourlink  # eg. "3943160/daattali"
+#  stackoverflow: yourlink  # eg. "3943160/daattali"
  
 # Select which links to show in the footer
 footer-links-active:
