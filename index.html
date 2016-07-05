@@ -21,7 +21,7 @@ subtitle: This is where I will ramble... to myself.
     Posted on {{ post.date | date: "%B %-d, %Y" }}
   </p>
 
-  {% for tag in tags %}
+  {% for category in categories %}
   <a href="#{{ category | slugify }}"> {{ category }} </a>
   {% endfor %}
 

@@ -4,9 +4,9 @@ layout: base
 
 {% include header.html type="post" %}
 
-{% for tag in tags %}
+  {% for category in categories %}
   <a href="#{{ category | slugify }}"> {{ category }} </a>
-{% endfor %}
+  {% endfor %}
 
 <div class="container">
   <div class="row">
