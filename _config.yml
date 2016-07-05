@@ -23,7 +23,7 @@ description: Just another corner on the web!
 
 # List of links in the navigation bar
 navbar-links:
-  Home: "index"
+  Home: ""
   About Me: "aboutme"
   Archive of Posts: "archive"
   Resources:
