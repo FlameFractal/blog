@@ -9,10 +9,11 @@ subtitle: History of all the posts
     text-align: center !important;
   }
   table{
+    table-layout: fixed;
     width: 100%;
   }
   td, th{
-    text-align: center;
+    text-align: center !important;
   }
 </style>
 
