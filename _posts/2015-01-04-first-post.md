@@ -1,6 +1,8 @@
 ---
 layout: post
 title: First post!
+categories: Dev
+tags: [web, jekyll]
 ---
 
 Checking out this new space! Feels rad. 
