@@ -10,6 +10,14 @@ subtitle: This is where I will ramble... to myself.
   <input type="submit" value="search">
 </form>
 
+<form class="navbar-form navbar-right" role="search" method="get" action="http://www.bing.com/search">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search" name="q" />
+      <input type="hidden" name="q1" value="site:wikipedia.org" />
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
