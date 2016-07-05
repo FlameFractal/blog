@@ -25,7 +25,7 @@ description: Just another corner on the web!
 navbar-links:
   Home: ""
   About Me: "aboutme"
-  Categories: ""
+  Categories: "categories"
   Archive: "archive"
   Search: "search"
 #  Resources:
