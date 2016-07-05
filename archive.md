@@ -4,29 +4,35 @@ title: Archive
 subtitle: History of all the posts
 ---
 
+<style type="text/css">
+  table{
+    margin-left: 10vw;
+    border: none;
+  }
+</style>
 
 <section id="archive">
   <h3>This year's posts</h3>
   <table>
-  {%for post in site.posts %}
+    <tr>
+      <th>Post Date</th>
+      <th>Post Title</th>
+    </tr>
+    {%for post in site.posts %}
     {% unless post.next %}
     {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        <h3>{{ post.date | date: '%Y' }}</h3>
-      {% endif %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+    <h3>{{ post.date | date: '%Y' }}</h3>
+    {% endif %}
     {% endunless %}
-        <tr>
-          <th>Post Date</th>
-          <th>Post Title</th>
-        </tr>
-        <tr>
-          <td><time>{{ post.date | date:"%d %b" }}</time></td>
-          <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-        </tr>
-      
-  {% endfor %}
+    <tr>
+      <td><time>{{ post.date | date:"%d %b" }}</time></td>
+      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+    </tr>
+
+    {% endfor %}
   </table>
 </section>
 
