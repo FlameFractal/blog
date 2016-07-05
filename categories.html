@@ -3,6 +3,19 @@ layout: default
 title: Tag
 ---
 
+<style type="text/css">
+  #categories{
+    background-color: rgba(0, 0, 0, 0.12);
+    color: #1b64a2;
+    width: 30px !important;
+    text-align: center;
+    margin-left: 20px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.3em;
+  }
+</style>
+
 {% comment %}
 =======================
 The following part extracts all the categories from your posts and sort categories, so that you do not need to manually collect your categories to a place.
@@ -42,7 +55,7 @@ The purpose of this snippet is to list all the categories you have in your site.
 =======================
 {% endcomment %}
 {% for category in categories %}
-  <a href="#{{ category | slugify }}"> {{ category }} </a>
+  <a id="categories" href="#{{ category | slugify }}"> {{ category }} </a>
 {% endfor %}
 
 
@@ -62,9 +75,6 @@ The purpose of this snippet is to list all your posts posted with a certain cate
      {{ post.title }}
      <small>{{ post.date | date_to_string }}</small>
      </a>
-     {% for category in post.categories %}
-       <a class="category" href="/category/#{{ category | slugify }}">{{ category }}</a>
-     {% endfor %}
      </h3>
      </li>
      {% endif %}
