@@ -5,15 +5,20 @@ subtitle: History of all the posts
 ---
 
 <style type="text/css">
+  #archive{
+    text-align: center !important;
+  }
   table{
-    margin-left: 10vw;
-    border: none;
+    width: 100%;
+  }
+  table>td{
+    text-align: center;
   }
 </style>
 
 <section id="archive">
   <h3>This year's posts</h3>
-  <table>
+  <table class="table">
     <tr>
       <th>Post Date</th>
       <th>Post Title</th>
@@ -35,4 +40,7 @@ subtitle: History of all the posts
     {% endfor %}
   </table>
 </section>
+
+
+
 
