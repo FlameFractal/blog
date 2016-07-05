@@ -14,11 +14,17 @@
   color: #fff !important;
   font-weight: 800;
   font-size:14px;
-  padding-bottom: 0;
-  padding left: 0;
-  padding right: 0;
 }
 
+@media only screen and (min-width:768px){
+  .navbar-custom .nav li a{
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
   border-bottom: 0.23rem solid white
