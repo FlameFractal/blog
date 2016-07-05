@@ -14,11 +14,12 @@
   color: #fff !important;
   font-weight: 800;
   font-size:14px;
+  padding-bottom: 0;
 }
 
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
-  border-bottom: 0.1975rem solid white
+  border-bottom: 0.2rem solid white
 }
 
 .navbar-brand a:hover{
