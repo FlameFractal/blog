@@ -63,7 +63,7 @@ The purpose of this snippet is to list all your posts posted with a certain cate
      <small>{{ post.date | date_to_string }}</small>
      </a>
      {% for tag in post.tags %}
-       <a class="tag" href="/category/#{{ category | slugify }}">{{ category }}</a>
+       <a class="category" href="/category/#{{ category | slugify }}">{{ category }}</a>
      {% endfor %}
      </h3>
      </li>
