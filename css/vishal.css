@@ -7,7 +7,7 @@
 
 /*Make the links in the navbar white on a black background*/
 .navbar-custom {
-  background-color:#222;
+  background-color:black;
 }
 
 .navbar-custom .nav li a{
@@ -21,13 +21,13 @@
     padding-bottom: 0px !important;
     padding-left: 0px !important;
     padding-right: 0px !important;
-    margin-right: 10px !important;
+    margin-right: 15px !important;
     margin-left: 10px !important;
   }
 }
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
-  border-bottom: 0.25rem solid white;
+  border-bottom: 0.3rem solid white;
   color: blue;
 }
 
