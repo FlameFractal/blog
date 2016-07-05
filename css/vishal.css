@@ -1,14 +1,21 @@
-.navbar-custom{
+
+.navbar-brand a{
+  font-weight: 500;
+  font-size: 20px;
+  color:white;
+}
+
+/*Make the links in the navbar white on a black background*/
+.navbar-custom li a{
   background-color:#222;
   color: #fff;
+  font-weight: 800;
+  font-size:14px;
 }
 
+/*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
-  border-bottom: 0.1875rem solid white
-}
-
-.navbar-custom .nav li a{
-  font-size:14px;;
+  border-bottom: 0.1975rem solid white
 }
 
 @media only screen and (max-width:1500px){
@@ -21,6 +28,3 @@
   background-color: #1cb28b;
 }
 
-.navbar-brand a:hover{
-  color:grey;
-}
