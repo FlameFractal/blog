@@ -13,7 +13,7 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>Nope. I didn\'t find what you\'re looking for!</li><li>Not here..</li><li>..or here either.</li>;'
+      searchResults.innerHTML = '<li>Nope. I didn\'t find what you\'re looking for!</li><li>Not here...</li><li>..or here either...</li>'
     }
   }
 
