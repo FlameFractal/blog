@@ -6,7 +6,7 @@
 }
 
 /*Make the links in the navbar white on a black background*/
-.navbar-custom li a{
+.navbar-custom {
   background-color:#222;
   color: #fff;
   font-weight: 800;
