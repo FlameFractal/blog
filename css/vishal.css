@@ -27,7 +27,8 @@
 }
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
-  border-bottom: 0.23rem solid white
+  border-bottom: 0.25rem solid white;
+  color: blue;
 }
 
 .navbar-brand a:hover{
