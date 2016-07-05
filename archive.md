@@ -4,11 +4,6 @@ title: Archive
 subtitle: History of all the posts
 ---
 
-<style type="text/css">
-  li>a{
-    padding-left: 30px;
-  }
-</style>
 
 <section id="archive">
   <h3>This year's posts</h3>
@@ -24,10 +19,16 @@ subtitle: History of all the posts
         <ul class="past">
       {% endif %}
     {% endunless %}
-      <li>
-        <time>{{ post.date | date:"%d %b" }}</time>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
+      | Post Date | Post Title |
+      | :------ |:--- |
+      | <li><time>{{ post.date | date:"%d %b" }}</time> | <a href="{{ post.url }}">{{ post.title }}</a></li> |
   {% endfor %}
   </ul>
 </section>
+
+| Number | Next number | Previous number |
+| :------ |:--- | :--- |
+| Five | Six | Four |
+| Ten | Eleven | Nine |
+| Seven | Eight | Six |
+| Two | Three | One |
