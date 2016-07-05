@@ -6,8 +6,8 @@
   font-size:14px;;
 }
 
-@media only screen and (max-width:1440px){
+@media only screen and (max-width:1500px){
   .avatar-container{
-    opacity:0;
+    opacity:0 !important;
   }
 }
