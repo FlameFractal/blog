@@ -14,6 +14,6 @@ Wait, what?
 
 What else do you need?
 
-### my history
+### My history
 
 To be honest, I'm having some trouble remembering right now, so why don't you just talk directly to me [here](mailto:vishg8@outlook.com) and I will answer **all** your questions.
