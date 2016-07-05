@@ -25,7 +25,7 @@ description: Just another corner on the web!
 navbar-links:
   Home: ""
   About Me: "aboutme"
-  Tech: "{{posts}}/tech"
+  Tech: "{{site.posts}}/tech"
   Archive of Posts: "archive"
   Resources:
     - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
