@@ -1,5 +1,10 @@
 .navbar-custom{
-  background-color:lightseagreen;
+  background-color:#222;
+  color: #fff;
+}
+
+.navbar-custom a:hover{
+  border-bottom: 0.1875rem solid white
 }
 
 .navbar-custom .nav li a{
@@ -10,4 +15,12 @@
   .avatar-container{
     opacity:0 !important;
   }
+}
+
+.navbar-brand{
+  background-color: #1cb28b;
+}
+
+.navbar-brand a:hover{
+  color:grey;
 }
