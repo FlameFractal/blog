@@ -26,10 +26,10 @@ navbar-links:
   Home: ""
   About Me: "aboutme"
   Categories: "search"
-  Archive of Posts: "archive"
-  Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+  Archive: "archive"
+#  Resources:
+#    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+#    - Learn markdown: "http://www.markdowntutorial.com/"
 #  Author's home: "http://vishalgauba.me"
 
 # Image to show in the navigation bar - image must be a square (width = height)
