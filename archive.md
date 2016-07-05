@@ -19,16 +19,17 @@ subtitle: History of all the posts
         <ul class="past">
       {% endif %}
     {% endunless %}
-      | Post Date | Post Title |
-      | :------ |:--- |
-      | <li><time>{{ post.date | date:"%d %b" }}</time> | <a href="{{ post.url }}">{{ post.title }}</a></li> |
+      <table>
+        <tr>
+          <th>Post Date</th>
+          <th>Post Title</th>
+        </tr>
+        <tr>
+          <td><time>{{ post.date | date:"%d %b" }}</time></td>
+          <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+        </tr>
+      </table>
   {% endfor %}
   </ul>
 </section>
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
