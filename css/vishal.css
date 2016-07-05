@@ -8,7 +8,10 @@
 /*Make the links in the navbar white on a black background*/
 .navbar-custom {
   background-color:#222;
-  color: #fff;
+}
+
+.navbar-custom .nav li a{
+  color: #fff !important;
   font-weight: 800;
   font-size:14px;
 }
@@ -16,6 +19,10 @@
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
   border-bottom: 0.1975rem solid white
+}
+
+.navbar-brand a:hover{
+  border: none;
 }
 
 @media only screen and (max-width:1500px){
