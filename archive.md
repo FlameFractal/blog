@@ -11,7 +11,7 @@ subtitle: History of all the posts
   table{
     width: 100%;
   }
-  table tr td, table tr th{
+  td, th{
     text-align: center;
   }
 </style>
