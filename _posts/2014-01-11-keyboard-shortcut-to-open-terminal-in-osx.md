@@ -29,7 +29,7 @@ So recently, I was digging through Automator when I realised I could create a Se
 
 5. 	 Now open App Shortcuts from the left pane. Hit the + , and set _Application_ to All Applications (**key point!**) and Menu Title as "Open Terminal" or something, enter the same keystrokes that you entered before.
 	
-    ![step5]({{site.baseurl}}/assets/img/step5.png)
+	![step5]({{site.baseurl}}/assets/img/step5.png)
 
 
 **_Voila_**! You're done. Now your keystroke will override in every app.  
