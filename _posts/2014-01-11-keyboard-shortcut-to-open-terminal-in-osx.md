@@ -27,7 +27,7 @@ So recently, I was digging through Automator when I realised I could create a Se
 	
 	![step4]({{site.baseurl}}/assets/img/step4.png)
 
-5. 	 Now open App Shortcuts from the left pane. Hit the + , and set _Application_ to All Applications (**key point!**) and Menu Title as "Open Terminal" or something, enter the same keystrokes that you entered before.
+5. Now open App Shortcuts from the left pane. Hit the + , and set _Application_ to All Applications (**key point!**) and Menu Title as "Open Terminal" or something, enter the same keystrokes that you entered before.
 	
 	![step5]({{site.baseurl}}/assets/img/step5.png)
 
@@ -36,4 +36,4 @@ So recently, I was digging through Automator when I realised I could create a Se
 So no matter where you are, ⌃⌥⌘T, will take you to your favourite place, the command center.  
   
 <br> 
-_Extra Tip:_ Open Finder from terminal at your current working directory by using "open ." command.
+**_Extra Tip:_** Open Finder from terminal at your current working directory by using "open ." command.
