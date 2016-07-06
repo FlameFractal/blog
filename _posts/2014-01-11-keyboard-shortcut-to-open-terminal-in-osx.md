@@ -32,8 +32,8 @@ So recently, I was digging through Automator when I realised I could create a Se
     ![step5]({{site.baseurl}}/assets/img/step5.png)
 
 
- **_Voila_**! You're done. Now your keystroke will override in every app.  
- So no matter where you are, ⌃⌥⌘T, will take you to your favourite place, the command center.  
+**_Voila_**! You're done. Now your keystroke will override in every app.  
+So no matter where you are, ⌃⌥⌘T, will take you to your favourite place, the command center.  
   
 <br> 
 _Extra Tip:_ Open Finder from terminal at your current working directory by using "open ." command.
