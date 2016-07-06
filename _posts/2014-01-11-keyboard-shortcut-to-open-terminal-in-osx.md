@@ -1,8 +1,9 @@
 ---
 layout: post
-published: true
 title: Keyboard shortcut to open Terminal in OSX
 date: '2014-01-11'
+categories: Dev
+tags: [osx, terminal]
 ---
 
 ### Since I've switched to OSX, I've always missed the convenience of just firing up the Terminal in Linux using Ctrl+Alt+T on whatever screen I may be.
