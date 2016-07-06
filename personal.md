@@ -13,3 +13,5 @@ Sentic computing focuses on polarity detection and emotion recognition of natura
 I'm very happy I got this opportunity to be involved with real research. It all started a semester ago when I decided to audit the Machine Learning course at NTU out of fascination. I'm glad I pursued it despite not getting academic credit for it!
 
 ---
+
+..
