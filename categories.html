@@ -5,24 +5,46 @@ subtitle: This is mainly for me. I have a major OCD about being <i>organised</i>
 ---
 
 <style type="text/css">
+
+  a{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+    -webkit-transition: .25s ease-in;
+    transition: .25s ease-in;
+  }
+
+
+#categories:hover a:not(:hover) {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+        opacity: .75;
+}
+
+  a:hover{
+    color: #0085a1 !important;
+    text-decoration: none;
+  }
+
+  #categories a:not(:hover){
+    
+  }
+
   #categories{
+    color: yellowgreen;
     border: 1px solid black;  
     border-radius: 15px;
     text-align: center;
     vertical-align: middle;
     padding: 5px 15px 5px 15px;
     margin-left:20px;
-    color: yellowgreen;
   }
 
   h1{
     font-size: 3em;
   }
 
-  #categories a:hover{
-    color: #0085a1 !important;
-    text-decoration: none;
-  }
+  
 
 </style>
 
