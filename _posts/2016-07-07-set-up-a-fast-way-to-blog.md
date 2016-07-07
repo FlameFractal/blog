@@ -87,11 +87,11 @@ fi
 **And, to be able to run this script from anywhere in the terminal, add `~/bin` to `PATH`**
 
 1. Open bash_profile with vim editor. <br>
-  ```shell
+  ```
   vim ~/.bash_profile
   ```
 2. Press `i`, paste the following, press `Escape`, then `:wq` and press `Enter` to get out of it. <br>
-  ```shell
+  ```
   PATH=$PATH:$HOME/bin
   ```
 
