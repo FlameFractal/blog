@@ -6,9 +6,18 @@ category: Dev
 tags: [terminal, git, blog]
 ---
 
+## tl;dr
+So, this is what I just did to publish this post.
+
++ Opened terminal
++ Typed `blog set-up-a-fast-way-to-blog`
++ Wrote. Saved. Got back to work.
+
+---
+
 ## Preface
 
-So a couple of days ago, I moved from wordpress to a Jekyll based blog. I didn't migrate all the data except a couple of posts. 
+So a couple of days ago, I moved from WordPress to a _Jekyll_ based blog. I migrated none but 2 posts. 
 
 So my workflow would be like this when I had an idea that I wanted to write a post about:
 
@@ -16,12 +25,7 @@ So my workflow would be like this when I had an idea that I wanted to write a po
 + Create a new file with data + title of the post
 + After writing up, do the usual git add/commit/push routine.
 
-But this process hindered my creative juices and I wondered if i could automate this process. The idea was it should be as simple as 
-
-1. open a blank file, write, & save.
-
-No hassle, whatsoever.  
-Let's get started.
+But this process hindered my creative juices and I wondered if i could "automate" this process.
 
 ---
 
@@ -29,24 +33,26 @@ Let's get started.
 
 The script should be able to handle the following:
 
-+ Open my editor with a blank file named (today's date + blog title)
-+ After I save the file, automatically do the git routine.
++ Open my editor with a blank file named with Jekyll format : `yyyy-mm-dd-blog-title`
++ Automatically do the git routine whence I'm done with the post.
 + Error handling
 + Wish me a good day ;)
 
-Also, one case where i might just quickly want to open my blog posts directory.
+Also, one more case to just quickly open my blog posts folder. So, here is my final script.
 
 ```shell
 #!/bin/bash
 
-# Variable that points to my blog directory
+# Variables that could change with time
 location=~/Desktop/git/flamefractal.github.io/
+<!-- editor=sublime -->
+
 
 #Checking iff 1 argument is supplied
 if [ "$#" -ne 1 ]; then
   echo "usage: blog [post-title]/[personal]/[open]"
 
-# Case 1: Open my blog directory
+# Case 1: Open my blog directory with Sublime
 elif [ "$1" == 'open' ]; then
   cd $location
   sublime $location
@@ -54,11 +60,11 @@ elif [ "$1" == 'open' ]; then
   echo "Don't forget to git it!"
   echo "Have a good day!"
 
-# Case 2: Open file named in Jekyll format : date+title
+# Case 2: Open file named in Jekyll format in Sublime
 else
   sublime $location/_posts/$(date +"%Y-%m-%d")-$1.md --wait
   post="$(date +"%Y-%m-%d")-$1"
-  git=1
+  git=1   <!-- Indicate that automatic git routine might be necessary -->
 fi
 
 # If git is required, then push to remote repository with appropriate commit message
@@ -70,10 +76,30 @@ if [ "$git" == 1 ]; then
   clear
   echo "Have a good day!"
 fi  
+```
 
+**Now, save this script as `~/bin/blog.sh` **
 
+**And, to be able to run this script from anywhere in the terminal, add `~/bin` to `PATH`**
 
+1. Open bash_profile with vim editor.
+  ```shell
+  vim ~/.bash_profile
+  ```
+2. Press `i`, paste the following, press `Escape`, then `:wq` and press `Enter` to get out of it.
+  ```shell
+  PATH=$PATH:$HOME/bin
+  ```
 
+---
 
+## Setting up the bash_profile
 
+So, in order to be able to type blog instead of blog.sh, we'll add an alias in bash_profile.
+Open the bash_profile again like in the code snippet `1` above.  
+
+Then add this, save & restart terminal for it to load the new profile.
+
+```shell
+alias blog='sh blog.sh'
 ```

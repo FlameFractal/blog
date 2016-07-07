@@ -27,7 +27,7 @@
 }
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
-  transition: border .25s ease-in;
+  /*transition: border .25s ease-in;*/
   border-bottom: 0.3rem solid white;
   color: blue;
 }
