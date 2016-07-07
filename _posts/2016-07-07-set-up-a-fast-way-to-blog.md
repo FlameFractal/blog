@@ -109,5 +109,7 @@ Then add this, save & restart terminal for it to load the new profile.
 alias blog='blog.sh'
 ```
 <br>
+
 ### And, you're good to go. Now I should get back to work ! :no_mouth:
+
 <br><br>
