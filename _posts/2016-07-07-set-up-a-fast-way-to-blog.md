@@ -82,7 +82,7 @@ if [ "$git" == 1 ]; then
 fi  
 ```
 
-**Now, save this script as `~/bin/blog.sh` **
+**Now, save this script as `~/bin/blog.sh`**
 
 **And, to be able to run this script from anywhere in the terminal, add `~/bin` to `PATH`**
 
