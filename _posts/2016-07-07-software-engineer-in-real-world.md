@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Softwate engineer in real world
+title: Software engineer in real world
 subtitle: What skills of a software engineer really matter
 category: Dev
 tags: [quora, engineering, competitive programming]
