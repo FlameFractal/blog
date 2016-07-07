@@ -28,7 +28,7 @@ It turns out that the colon `:` of the `:emoji:` was screwing up with the YAML f
 "title": "{{ post.title | xml_escape }}",
 "author": "{{ post.author | xml_escape }}",
 "category": "{{ post.category | xml_escape }}",
-"content": {{ post.content | strip_html | strip_newlines | jsonify | <b>replace:':',' '<b>}},
+"content": {{ post.content | strip_html | strip_newlines | jsonify | <b> replace:':',' '</b> }},
 "url": "{{ post.url | xml_escape }}"
 {%endraw%}
 ```
