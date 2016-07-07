@@ -110,6 +110,6 @@ alias blog='blog.sh'
 ```
 <br>
 
-### And, you're good to go. Now I should get back to work ! 
+### And, you're good to go. Now I should get back to work ! :open_mouth:
 
 <br><br>
