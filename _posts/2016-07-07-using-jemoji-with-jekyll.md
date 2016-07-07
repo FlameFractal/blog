@@ -22,8 +22,7 @@ The search feature stopped working.
 
 It turns out that the colon `:` of the `:emoji:` was screwing up with the YAML format of the search.
 
-
-```
+<pre>
 {%raw%}
 "title": "{{ post.title | xml_escape }}",
 "author": "{{ post.author | xml_escape }}",
@@ -31,7 +30,7 @@ It turns out that the colon `:` of the `:emoji:` was screwing up with the YAML f
 "content": {{ post.content | strip_html | strip_newlines | jsonify | <b> replace:':',' '</b> }},
 "url": "{{ post.url | xml_escape }}"
 {%endraw%}
-```
+</pre>
 
 This is where I extract all the searchable content from the posts and store it in JSON form.
 
