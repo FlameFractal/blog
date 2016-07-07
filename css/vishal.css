@@ -25,11 +25,23 @@
     margin-left: 10px !important;
   }
 }
+
+.navbar-custom a{
+    border-bottom: 3px solid transparent;    
+    width: 0px;
+    transition: 0.5s ease;
+    white-space: nowrap;
+    height: 25px;
+}
+
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
-  border-bottom: 0.3rem solid white;
+  border-bottom: 0 solid white;
   color: blue;
+  width: 200px;
 }
+
+
 
 #navbar-brand a:hover{
   border-bottom: none !important;
