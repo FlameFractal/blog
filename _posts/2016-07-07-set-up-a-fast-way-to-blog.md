@@ -1,9 +1,9 @@
 ---
-layout:post
-title:Set up a fast way to Blog
+layout: post
+title: Set up a fast way to Blog
 subtitle:
-category:Dev
-tags:terminal, git
+category: Dev
+tags: [terminal, git, blog]
 ---
 
 So a couple of days ago, I moved from wordpress to a Jekyll based blog. I didn't migrate all the data except a couple of posts. 
