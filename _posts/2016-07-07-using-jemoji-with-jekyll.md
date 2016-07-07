@@ -22,13 +22,18 @@ The search feature stopped working.
 
 It turns out that the colon `:` of the `:emoji:` was screwing up with the YAML format of the search.
 
+%raw%
 ```
-"title": "\{{ post.title | xml_escape }\}",
-"author": "\{\{ post.author | xml_escape }}",
-"category": "\{\{ post.category | xml_escape \}\}",
-"content": {{ post.content | strip_html | strip_newlines | jsonify | **replace:':',' '**\}},
-"url": "{{ post.url | xml_escape }\}"
+"title": "{{ post.title | xml_escape }}",
+"author": "{{ post.author | xml_escape }}",
+"category": "{{ post.category | xml_escape }}",
+"content": {{ post.content | strip_html | strip_newlines | jsonify | **replace:':',' '**}},
+"url": "{{ post.url | xml_escape }}"
 ```
+%endraw%
+
 This is where I extract all the searchable content from the posts and store it in JSON form.
+
 In line 4, `"content": `, the colon was interfering with the format.
-So I added another Liquid filter that would replace the colon with a space as - `| replace:':',' '`.
+
+So I added another Liquid filter that would replace the colon with a space as - `replace:':',' '`.
