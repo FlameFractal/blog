@@ -43,29 +43,33 @@ Also, one more case to just quickly open my blog posts folder. So, here is my fi
 ```shell
 #!/bin/bash
 
-# Variables that could change with time
-location=~/Desktop/git/flamefractal.github.io/
-<!-- editor=sublime -->
+# Variable that may change with time
+location=/path/to/blog's/git/directory
+editor=sublime
+goodbyemessage="Have a good day!"
 
 
 #Checking iff 1 argument is supplied
 if [ "$#" -ne 1 ]; then
-  echo "usage: blog [post-title]/[personal]/[open]"
+  echo "usage: blog [post-title]/[open]"
+
 
 # Case 1: Open my blog directory with Sublime
 elif [ "$1" == 'open' ]; then
   cd $location
-  sublime $location
+  $editor $location
   clear
   echo "Don't forget to git it!"
-  echo "Have a good day!"
+  echo $goodbyemessage
 
-# Case 2: Open file named in Jekyll format in Sublime
+
+# Case 2: Open file named in Jekyll format
 else
-  sublime $location/_posts/$(date +"%Y-%m-%d")-$1.md --wait
+  $editor $location/_posts/$(date +"%Y-%m-%d")-$1.md --wait
   post="$(date +"%Y-%m-%d")-$1"
   git=1   <!-- Indicate that automatic git routine might be necessary -->
 fi
+
 
 # If git is required, then push to remote repository with appropriate commit message
 if [ "$git" == 1 ]; then
@@ -74,7 +78,7 @@ if [ "$git" == 1 ]; then
   git commit -am "updated $post"
   git push
   clear
-  echo "Have a good day!"
+  echo $goodbyemessage
 fi  
 ```
 
@@ -95,7 +99,8 @@ fi
 
 ## Setting up the bash_profile
 
-So, in order to be able to type blog instead of blog.sh, we'll add an alias in bash_profile.
+So, in order to be able to type blog instead of blog.sh, we'll add an `alias` in bash_profile.  
+
 Open the bash_profile again like in the code snippet `1` above.  
 
 Then add this, save & restart terminal for it to load the new profile.
@@ -103,3 +108,4 @@ Then add this, save & restart terminal for it to load the new profile.
 ```shell
 alias blog='sh blog.sh'
 ```
+
