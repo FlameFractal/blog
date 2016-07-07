@@ -14,7 +14,7 @@ Jekyll supports Github flavoured Markdown. To enable emojis similar to the ones 
         gems:
           - jemoji  
 
-And now you can happily :smile: use your emojis in your website :exclamation:
+And now you can happily :smile: use emojis in your website :exclamation:
 
 But, I encountered another problem with this. 
 
