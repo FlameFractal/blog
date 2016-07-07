@@ -62,6 +62,8 @@ footer-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
+
+# Modified to display whatever link is defined here
 url-pretty: "vishalgauba.me"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
