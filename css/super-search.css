@@ -79,9 +79,9 @@ visibility: visible;
 	.super-search__input {
 		font-size: 30px;
 	}
-  /*.super-search__result-date {
+  .super-search__result-date {
     display: none;
-  }*/
+  
   /*.super-search__results {
     position: absolute;
     left: 0px;
