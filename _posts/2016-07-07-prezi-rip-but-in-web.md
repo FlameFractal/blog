@@ -8,4 +8,4 @@ title: Prezi rip off, but in Web, Impress.js
 **And guess what, it's capable of 3D effects! <boo hoo prezi!>**
 
 
-[Impress.JS](http://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html#/bored)
+[Live Preview - Impress.JS](http://htmlpreview.github.io/?https://github.com/bartaz/impress.js/blob/master/index.html#/bored)
