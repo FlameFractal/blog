@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Prezi rip, but in Web, Impress.js
+title: Prezi rip off, but in Web, Impress.js
 ---
 
 **Came across this project on github which allows you to make Prezi like presentations, but inside the browser. It uses CSS3 transformations, and animations.**
