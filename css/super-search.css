@@ -2,6 +2,21 @@
 Author: Kushagra Gour (http://kushagragour.in)
 MIT Licensed
 */
+
+
+@media only screen and (min:width:768px){
+	.super-search__input {
+		font-size: 20px;
+	}
+  .super-search__result-date {
+    display: none;
+  }
+  .super-search__results {
+    position: absolute;
+    left: 0px;
+  }
+}
+
 .super-search-btn {
 	<!-- position: fixed;
 	right: 10px;
@@ -9,71 +24,71 @@ MIT Licensed
 	fill: #DDD;
 }
 .super-search-btn:hover {
-	fill: #BBB;
+fill: #BBB;
 }
 
 .super-search {
-	position: fixed;
-	background-color: rgba(0, 191, 255, 0.85);
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
-	z-index: 2000;
-	transition: 0.2s ease;
-	visibility: hidden;
-	opacity: 0;
+position: fixed;
+background-color: rgba(0, 191, 255, 0.85);
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+z-index: 2000;
+transition: 0.2s ease;
+visibility: hidden;
+opacity: 0;
 }
 .super-search__close-btn {
-	fill: #DDD;
-	position: absolute;
-	right: 10px;
-	top: 15px;
-	z-index: 2000;
+fill: #DDD;
+position: absolute;
+right: 10px;
+top: 15px;
+z-index: 2000;
 }
 .super-search__input {
-	border: 0;
-	font-size: 50px;
-	border-left: none;
-	border-right: none;
-	color: #999;
-	width: 100%;
-	padding: 10px 31px;
-	text-align: center;
-	transform: translateY(-100%);
-	transition: 0.15s ease-out 150ms;
+border: 0;
+font-size: 50px;
+border-left: none;
+border-right: none;
+color: #999;
+width: 100%;
+padding: 10px 31px;
+text-align: center;
+transform: translateY(-100%);
+transition: 0.15s ease-out 150ms;
 }
 .is-active .super-search__input {
-	transform: translateY(0);
+transform: translateY(0);
 }
 .super-search__results {
-	text-align: center;
-	list-style: none;
-	padding: 0;
-	overflow-x: hidden;
-	height: calc(100% - 110px);
-	transition: 0.2s ease;
+text-align: center;
+list-style: none;
+padding: 0;
+overflow-x: hidden;
+height: calc(100% - 110px);
+transition: 0.2s ease;
 }
 .super-search__results.is-hidden {
-	opacity: 0;
-	transform: translateY(-1vh);
+opacity: 0;
+transform: translateY(-1vh);
 }
 
 .super-search__results > li > a {
-	text-decoration: none;
-	display: block;
-	position: relative;
-	background-color: cadetblue;
-	color: #666;
-	padding: 17px;
-	margin: 12px 14px;
-	box-shadow: 0 3px 4px rgba(0,0,0,0.1);
+text-decoration: none;
+display: block;
+position: relative;
+background-color: cadetblue;
+color: #666;
+padding: 17px;
+margin: 12px 14px;
+box-shadow: 0 3px 4px rgba(0,0,0,0.1);
 }
 .super-search__result-date {
-	position: absolute;
-	right: 12px;
+position: absolute;
+right: 12px;
 }
 .super-search.is-active {
-	opacity: 1;
-	visibility: visible;
+opacity: 1;
+visibility: visible;
 }
