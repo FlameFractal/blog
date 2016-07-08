@@ -16,7 +16,7 @@ MIT Licensed
 	function xmlToJson(xml) {
 		// Create the return object
 		var obj = {};
-		if (xml.nodeType == 3) { // text
+		if (xml.nodeType == 1) { // text
 			obj = xml.nodeValue;
 		}
 
