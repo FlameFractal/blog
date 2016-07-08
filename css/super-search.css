@@ -4,7 +4,7 @@ MIT Licensed
 */
 
 
-@media only screen and (min:width:768px){
+@media only screen and (max-width:768px){
 	.super-search__input {
 		font-size: 20px;
 	}
@@ -15,6 +15,20 @@ MIT Licensed
     position: absolute;
     left: 0px;
   }
+  #magnifyglass{
+    margin-left: 10px; 
+  }
+}
+
+@media only screen and (min-width:768px){
+  #magnifyglass{
+    margin-left: 0px; 
+    padding-top: 10px;
+  }
+}
+
+#magnifyglass{
+  margin-right: 20px;
 }
 
 .super-search-btn {
