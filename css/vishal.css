@@ -24,7 +24,7 @@
     margin-right: 15px !important;
     margin-left: 10px !important;
   }
-  .navbar-custom .nav li a .super-search__results{
+  .navbar-custom .nav .super-search__results > li > a {
     font-size:20px
   }
 }
