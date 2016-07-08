@@ -4,33 +4,6 @@ MIT Licensed
 */
 
 
-@media only screen and (max-width:768px){
-	.super-search__input {
-		font-size: 20px;
-	}
-  .super-search__result-date {
-    display: none;
-  }
-  .super-search__results {
-    position: absolute;
-    left: 0px;
-  }
-  #magnifyglass{
-    margin-left: 10px; 
-  }
-}
-
-@media only screen and (min-width:768px){
-  #magnifyglass{
-    margin-left: 0px; 
-    padding-top: 10px;
-  }
-}
-
-#magnifyglass{
-  margin-right: 20px;
-}
-
 .super-search-btn {
 	<!-- position: fixed;
 	right: 10px;
@@ -106,3 +79,31 @@ right: 12px;
 opacity: 1;
 visibility: visible;
 }
+
+@media only screen and (max-width:768px){
+	.super-search__input {
+		font-size: 20px;
+	}
+  .super-search__result-date {
+    display: none;
+  }
+  .super-search__results {
+    position: absolute;
+    left: 0px;
+  }
+  #magnifyglass{
+    margin-left: 10px; 
+  }
+}
+
+@media only screen and (min-width:768px){
+  #magnifyglass{
+    margin-left: 0px; 
+    padding-top: 10px;
+  }
+}
+
+#magnifyglass{
+  margin-right: 20px;
+}
+
