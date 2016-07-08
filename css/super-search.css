@@ -62,7 +62,7 @@ MIT Licensed
 .super-search__results > li > a {
 	display: block;
 	position: relative;
-	background-color: #f9f9f9;
+	background-color: cadetblue;
 	color: #666;
 	padding: 17px;
 	margin: 12px 14px;
