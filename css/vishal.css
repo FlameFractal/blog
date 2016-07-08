@@ -24,6 +24,9 @@
     margin-right: 15px !important;
     margin-left: 10px !important;
   }
+  .navbar-custom .nav li a .super-search__results{
+    font-size:20px
+  }
 }
 /*Underline when navbar links are hovered upon*/
 .navbar-custom a:hover{
