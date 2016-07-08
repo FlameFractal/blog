@@ -4,12 +4,7 @@ MIT Licensed
 */
 
 
-.super-search-btn {
-	<!-- position: fixed;
-	right: 10px;
-	top: 15px; -->
-	fill: #DDD;
-}
+
 .super-search-btn:hover {
 fill: #BBB;
 }
@@ -101,6 +96,13 @@ visibility: visible;
     margin-left: 0px; 
     padding-top: 10px;
   }
+}
+
+.super-search-btn {
+	<!-- position: fixed;
+	right: 10px;
+	top: 15px; -->
+	fill: #DDD;
 }
 
 #magnifyglass{
