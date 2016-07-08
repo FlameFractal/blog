@@ -99,13 +99,13 @@ visibility: visible;
 }
 
 .super-search-btn {
-	<!-- position: fixed;
+/* position: fixed;
 	right: 10px;
-	top: 15px; -->
+	top: 15px; */
 	fill: #DDD;
 }
 
 #magnifyglass{
-  margin-right: 20px;
+  margin-right: 35px;
 }
 
