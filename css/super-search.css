@@ -81,7 +81,7 @@ visibility: visible;
 	}
   .super-search__result-date {
     display: none;
-  
+  }
   /*.super-search__results {
     position: absolute;
     left: 0px;
@@ -98,7 +98,7 @@ visibility: visible;
   }
 }
 
-.super-search-btn {
+.super-search {
 	fill: #DDD;
 }
 
