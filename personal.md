@@ -14,4 +14,9 @@ I'm very happy I got this opportunity to be involved with real research. It all 
 
 ---
 
-..
+### Make a clone of lmgtfy.com
+
++ Design the page with bootstrap. 
++ Animate a cursor-windows and cursor-mac.png image to move. 
++ An iframe for google page or own custom page
++ 
