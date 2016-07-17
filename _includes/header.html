@@ -75,7 +75,7 @@ data-img-src-{{ imgnum }}="{{ imginfo | prepend: site.baseurl | replace: '//', '
     
               <!--Displaying time to read for a post-->
               {% capture words %}
-              {{ page.content | number_of_words }}
+              {{ post.content | number_of_words }}
               {% endcapture %}
               
               {{ words | divided_by: 180 | append: " minute read." }}
