@@ -36,15 +36,15 @@ data-img-src-{{ imgnum }}="{{ imginfo | prepend: site.baseurl | replace: '//', '
             {% endif %}
 
             {% if include.type == "post" %}
-            <span class="post-meta">Posted on {{ page.date | date: "%-d %h %Y - %H:%M" }}
-              {{ page.date | date: "%-d %h %Y, " }}
+            <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}
+               {{ post.date | date: "%-d %h %Y, " }}
     
-              <!--Displaying time to read for a post-->
-              {% capture words %}
-              {{ page.content | number_of_words }}
-              {% endcapture %}
-              
-              {{ words | divided_by: 180 | plus: 1 | append: " minute read." }}
+    <!--Displaying time to read for a post-->
+    {% capture words %}
+    {{ page.content | number_of_words }}
+    {% endcapture %}
+    
+    {{ words | divided_by: 180 | plus: 1 | append: " minute read." }}
             </span>
             {% endif %}
           </div>
@@ -70,17 +70,15 @@ data-img-src-{{ imgnum }}="{{ imginfo | prepend: site.baseurl | replace: '//', '
             {% endif %}
 
             {% if include.type == "post" %}
-            <span class="post-meta">
-              {{ page.date | date: "%-d %h %Y, " }}
+            <span class="post-meta">Posted on {{ page.date | date: "%B %-d, %Y" }}
+               {{ post.date | date: "%-d %h %Y, " }}
     
-              <!--Displaying time to read for a post-->
-              {% capture words %}
-              {{ post.content | number_of_words }}
-              {% endcapture %}
-              
-              {{ words | divided_by: 180 | plus: 1 | append: " minute read." }}
-              
-              
+    <!--Displaying time to read for a post-->
+    {% capture words %}
+    {{ page.content | number_of_words }}
+    {% endcapture %}
+    
+    {{ words | divided_by: 180 | plus: 1 | append: " minute read." }}
             </span>
             {% endif %}
           </div>
