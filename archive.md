@@ -18,7 +18,11 @@ subtitle: History of all the posts
 </style>
 
 <section id="archive">
+  
+  {% comment %}
   <h3>This year's posts</h3>
+  {% endcomment %}
+  
   <table class="table">
     <tr>
       <th>Post Date</th>
@@ -30,8 +34,12 @@ subtitle: History of all the posts
     {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
     {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
     {% if year != nyear %}
-    // <h3>{{ post.date | date: '%Y' }}</h3>
+    
+    {% comment %}
+    <h3>{{ post.date | date: '%Y' }}</h3>
     <h2>{{ nyear }} </h2>
+    {% endcomment %}
+    
     {% endif %}
     {% endunless %}
     <tr>
