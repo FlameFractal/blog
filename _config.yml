@@ -77,7 +77,7 @@ url-pretty: "vishalgauba.me"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "India/Bangalore"
+timezone: "IN"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
