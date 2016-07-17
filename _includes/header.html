@@ -44,7 +44,7 @@ data-img-src-{{ imgnum }}="{{ imginfo | prepend: site.baseurl | replace: '//', '
               {{ page.content | number_of_words }}
               {% endcapture %}
               
-              {{ words | divided_by: 180 | add: 1 | append: " minute read." }}
+              {{ words | divided_by: 180 | plus: 1 | append: " minute read." }}
             </span>
             {% endif %}
           </div>
@@ -78,7 +78,7 @@ data-img-src-{{ imgnum }}="{{ imginfo | prepend: site.baseurl | replace: '//', '
               {{ post.content | number_of_words }}
               {% endcapture %}
               
-              {{ words | divided_by: 180 | append: " minute read." }}
+              {{ words | divided_by: 180 | plus: 1 | append: " minute read." }}
               
               
             </span>

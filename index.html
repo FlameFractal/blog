@@ -26,7 +26,7 @@ subtitle: This is where I shall ramble... to myself.
     {{ page.content | number_of_words }}
     {% endcapture %}
     
-    {{ words | divided_by: 180 | append: " minute read." }}
+    {{ words | divided_by: 180 | plus: 1 | append: " minute read." }}
 
   </p>
   
