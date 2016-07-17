@@ -19,8 +19,17 @@ subtitle: This is where I shall ramble... to myself.
    </a>
 
    <p class="post-meta">
-    Posted on {{ post.date | date: "%-d %h %Y %Z" }}
+    {{ post.date | date: "%-d %h %Y %Z" }}
+    
+    <!--Displaying time to read for a post-->
+    {% capture words %}
+    {{ page.content | number_of_words }}
+    {% endcapture %}
+    
+    {{ words | divided_by: 300 | append: " minute read." }}
+
   </p>
+  
 
   {% for category in categories %}
   <a href="#{{ category | slugify }}"> {{ category }} </a>
