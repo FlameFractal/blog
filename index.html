@@ -19,14 +19,14 @@ subtitle: This is where I shall ramble... to myself.
    </a>
 
    <p class="post-meta">
-    {{ post.date | date: "%-d %h %Y %Z" }}
+    {{ post.date | date: "%-d %h %Y, " }}
     
     <!--Displaying time to read for a post-->
     {% capture words %}
     {{ page.content | number_of_words }}
     {% endcapture %}
     
-    {{ words | divided_by: 300 | append: " minute read." }}
+    {{ words | divided_by: 180 | append: " minute read." }}
 
   </p>
   
