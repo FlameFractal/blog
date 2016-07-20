@@ -39,6 +39,7 @@ padding: 10px 31px;
 text-align: center;
 transform: translateY(-100%);
 transition: 0.15s ease-out 150ms;
+text-transform: uppercase;
 }
 .is-active .super-search__input {
 transform: translateY(0);
