@@ -5,7 +5,7 @@ title: Personal
 
 <style>
 	hr{
-		border-bottom: 	4px solid darkgrey;
+		border-bottom: 	4px solid #e0d1d1;
 	}
 </style>
 
