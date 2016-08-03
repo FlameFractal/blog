@@ -18,7 +18,7 @@ As I'm doing a Poetry Appreciation course this semester, I really relate to this
 
 Some snippets from the post :
 
-![Cow Poetry](http://3.bp.blogspot.com/_uS62aM_GVuk/SCnABBxPJnI/AAAAAAAAAfY/zgCFwKBYI6k/s1600-h/cowpoetry.jpg)
+![Cow Poetry](../assets/img/cowpoetry.jpg)
 
 >	 I hate that with poetry, we are expected to read into it all. 
 
