@@ -12,7 +12,7 @@ As I'm doing a Poetry Appreciation course this semester, I really relate to this
 
 Some snippets from the post :
 
-![Cow Poetry](../assets/img/cowpoetry.jpg)
+![Cow Poetry](../img/cowpoetry.jpg)
 
 >	 I hate that with poetry, we are expected to read into it all. 
 

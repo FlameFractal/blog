@@ -24,4 +24,4 @@ To set up local development of an existing Jekyll blog,
 
 _**The best part is that every change to a file locally will be regenerated automatically. This allows for fast development.**_
 
-![pic](../assets/img/jekyll_local.png)
+![pic](../img/jekyll_local.png)

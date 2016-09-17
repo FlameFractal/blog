@@ -13,23 +13,23 @@ So recently, I was digging through Automator when I realised I could create a Se
 
 1. Open Automator, choose Service for new document.
 	
-	![step1]({{site.baseurl}}/assets/img/step1.png)
+	![step1]({{site.baseurl}}/img/step1.png)
 
 2. Set these parameters at the top as **no input** in **any application** and drag the Launch Application from the left side onto the workflow canvas.
 	
-	![step2]({{site.baseurl}}/assets/img/step2.png)
+	![step2]({{site.baseurl}}/img/step2.png)
 
 3. Set Terminal in /Others from the dropdown menu, hit cmd+s to save, give a name and exit Automator.
 	
-	![step3]({{site.baseurl}}/assets/img/step3.png)
+	![step3]({{site.baseurl}}/img/step3.png)
 
 4. Go to System Preferences -> Keyboard -> Services. Head down to the bottom. Set a shortcut for Open Terminal service that you just created. Make sure that it doesn't conflict with a preset shortcut. I set mine to ⌃⌥⌘T (Ctrl_Alt_Command_T).
 	
-	![step4]({{site.baseurl}}/assets/img/step4.png)
+	![step4]({{site.baseurl}}/img/step4.png)
 
 5. Now open App Shortcuts from the left pane. Hit the + , and set _Application_ to All Applications (**key point!**) and Menu Title as "Open Terminal" or something, enter the same keystrokes that you entered before.
 	
-	![step5]({{site.baseurl}}/assets/img/step5.png)
+	![step5]({{site.baseurl}}/img/step5.png)
 
 
 **_Voila_**! You're done. Now your keystroke will override in every app.  
