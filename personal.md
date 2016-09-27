@@ -9,6 +9,49 @@ title: Personal
 	}
 </style>
 
+# Missed Classes
+
+**Linear Algebra**
+
+* Aug 19
+* Aug 29
+* Aug 31 (Rain)
+* Sep 10 (3 hr extra class)
+* Sep 14 (NG came at 9:38)
+* Sep 16 - Tut
+
+**Dynamical Systems**
+
+* Sep 2- Lec, Lab
+* Sep 5 (Stomach Ache)
+* Sep 9 - Lec, Lab
+* Sep 16 - Lec, Lab
+* Sep 19
+* Sep 21
+* Sep 23 - Lec, Lab
+
+**Poetry Appreciation**
+
+* Aug 29
+* Sep 5 (Stomach Ache)
+* Sep 16
+
+**Software Engineering**
+
+* Aug 23
+* Aug 24 (Extra Class 9pm)
+* Sep 6 (Overslept)
+* Sep 15 (Special Class 8pm)
+* Sep 19 (Sleepig, Quiz-2)
+
+
+**Networking**
+
+* Aug 23
+* Sep 8 (Revision class)
+
+
+
 # Poetry Course
 **Aug 3** | Lec-2
 
