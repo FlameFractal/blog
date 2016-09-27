@@ -19,6 +19,7 @@ title: Personal
 * Sep 10 (3 hr extra class)
 * Sep 14 (NG came at 9:38)
 * Sep 16 - Tut
+* Sep 26 (Dynamical)
 
 **Dynamical Systems**
 
@@ -44,12 +45,11 @@ title: Personal
 * Sep 15 (Special Class 8pm)
 * Sep 19 (Sleepig, Quiz-2)
 
-
 **Networking**
 
 * Aug 23
 * Sep 8 (Revision class)
-
+* Sep 27 (Linear MidSem)
 
 
 # Poetry Course
