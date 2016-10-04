@@ -50,7 +50,7 @@ title: Personal
 * Aug 23
 * Sep 8 (Revision class)
 * Sep 27 (Linear MidSem)
-
+* Sep 28 - Lab (Linear MidSem)
 
 # Poetry Course
 **Aug 3** | Lec-2
