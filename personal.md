@@ -19,7 +19,8 @@ title: Personal
 * Sep 10 (3 hr extra class)
 * Sep 14 (NG came at 9:38)
 * Sep 16 - Tut
-* Sep 26 (Dynamical)
+* Sep 26 (Dynamical Midsem)
+* Oct 7 - Lec
 
 **Dynamical Systems**
 
@@ -31,11 +32,6 @@ title: Personal
 * Sep 21
 * Sep 23 - Lec, Lab
 
-**Poetry Appreciation**
-
-* Aug 29
-* Sep 5 (Stomach Ache)
-* Sep 16
 
 **Software Engineering**
 
@@ -51,6 +47,20 @@ title: Personal
 * Sep 8 (Revision class)
 * Sep 27 (Linear MidSem)
 * Sep 28 - Lab (Linear MidSem)
+
+**Poetry Appreciation**
+
+* Aug 29
+* Sep 5 (Stomach Ache)
+* Sep 16
+
+**Mathematics In India**
+
+* Oct 7
+
+**Wireless**
+
+* 
 
 # Poetry Course
 **Aug 3** | Lec-2
