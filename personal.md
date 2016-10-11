@@ -20,6 +20,7 @@ title: Personal
 * Sep 14 (NG came at 9:38)
 * Sep 16 - Tut
 * Sep 26 (Dynamical Midsem)
+* Oct 5 (Slept late)
 * Oct 7 - Lec
 
 **Dynamical Systems**
