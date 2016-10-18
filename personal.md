@@ -60,8 +60,7 @@ title: Personal
 * Oct 7
 
 **Wireless**
-
-* 
+ 
 
 # Poetry Course
 **Aug 3** | Lec-2
