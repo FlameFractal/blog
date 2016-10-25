@@ -58,10 +58,12 @@ title: Personal
 **Mathematics In India**
 
 * Oct 7
+* Oct 19
+* Oct 21
 
 **Wireless**
 
-*
+* Oct 19
 
 # Poetry Course
 **Aug 3** | Lec-2
