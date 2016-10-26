@@ -41,6 +41,7 @@ title: Personal
 * Sep 6 (Overslept)
 * Sep 15 (Special Class 8pm)
 * Sep 19 (Sleepig, Quiz-2)
+* Sep 25 
 
 **Networking**
 
