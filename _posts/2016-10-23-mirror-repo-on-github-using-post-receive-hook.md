@@ -25,10 +25,15 @@ git --work-tree=/home/vishg/public_html --git-dir=/home/vishg/.git checkout -f
 git --work-tree=/home/vishg/public_html --git-dir=/home/vishg/.git push --quiet github &
 
 
-chmod 0644 ~/public_html/index.php
-chmod 0644 ~/public_html/Home/index.php
+find ~/public_html -type f -name "*.php" -exec chmod 0644 {} \;
 
+
+
+#chmod 0644 ~/public_html/index.php
+#chmod 0644 ~/public_html/Home/index.php
 #cd ~/public_html
 #find . -type d -exec chmod 755 {} \;
 #find . -type d -exec chmod 644 {} \;
+
+
 ```
