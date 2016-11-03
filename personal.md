@@ -15,13 +15,15 @@ title: Personal
 
 * Aug 19
 * Aug 29
-* Aug 31 (Rain)
-* Sep 10 (3 hr extra class)
-* Sep 14 (NG came at 9:38)
-* Sep 16 - Tut
+* Aug 31   (Rain)
+* Sep 12
+* Sep 14  (NG came at 9:38)
+* Sep 16  (Tut)
+* Sep 23 (Poetry EndSem)
 * Sep 26 (Dynamical Midsem)
-* Oct 5 (Slept late)
-* Oct 7 - Lec
+* Oct 5  (Slept late)
+* Oct 7
+* Oct 28 
 
 **Dynamical Systems**
 
@@ -42,6 +44,7 @@ title: Personal
 * Sep 15 (Special Class 8pm)
 * Sep 19 (Sleepig, Quiz-2)
 * Sep 25 
+* Oct 27 (Simran bday)
 
 **Networking**
 
@@ -49,6 +52,7 @@ title: Personal
 * Sep 8 (Revision class)
 * Sep 27 (Linear MidSem)
 * Sep 28 - Lab (Linear MidSem)
+* Nov 1 (Bhai dooj)
 
 **Poetry Appreciation**
 
