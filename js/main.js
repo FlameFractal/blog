@@ -136,3 +136,19 @@ var main = {
 // 2fc73a3a967e97599c9763d05e564189
 
 document.addEventListener('DOMContentLoaded', main.init);
+
+
+
+
+
+
+$(document).on("swipe",function(){
+  $("h1").on("swipe",function(){
+    $(this).hide();
+  });
+});
+
+
+$(document).on("swipe",function(){
+    $superSearch.toggle();
+});
