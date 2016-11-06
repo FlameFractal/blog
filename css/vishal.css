@@ -33,6 +33,7 @@
   /*transition: border .25s ease-in;*/
   border-bottom: 0.3rem solid white;
   color: blue;
+  background-color: black;
 }
 
 #navbar-brand a:hover{
@@ -51,9 +52,4 @@
 
 body{
   color: black !important;
-}
-
-
-.super-search__results > li > a:hover{
-  background-color: black;
 }
