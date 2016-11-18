@@ -6,15 +6,6 @@ category: Dev
 tags: [terminal, git, blog]
 ---
 
-
-
-```
-* auto-gen TOC:
-{:toc}
-```
-
-
-
 ## tl;dr
 
 So, this is what I just did to publish this post.
@@ -24,8 +15,6 @@ So, this is what I just did to publish this post.
 + Wrote. Saved. Got back to work.
 
 
-
-[TOC]
 
 ---
 
