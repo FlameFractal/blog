@@ -6,12 +6,26 @@ category: Dev
 tags: [terminal, git, blog]
 ---
 
+
+
+```
+* auto-gen TOC:
+{:toc}
+```
+
+
+
 ## tl;dr
+
 So, this is what I just did to publish this post.
 
 + Opened terminal
 + Typed `blog set-up-a-fast-way-to-blog`
 + Wrote. Saved. Got back to work.
+
+
+
+[TOC]
 
 ---
 
@@ -109,6 +123,8 @@ Then add this, save & restart terminal for it to load the new profile.
 alias blog='blog.sh'
 ```
 <br>
+
+
 
 ### And, you're good to go. Now I should get back to work ! :open_mouth:
 

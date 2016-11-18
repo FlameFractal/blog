@@ -9,67 +9,6 @@ title: Personal
 	}
 </style>
 
-# Missed Classes
-
-**Linear Algebra**
-
-* Aug 19
-* Aug 29
-* Aug 31   (Rain)
-* Sep 12
-* Sep 14  (NG came at 9:38)
-* Sep 16  (Tut)
-* Sep 23 (Poetry EndSem)
-* Sep 26 (Dynamical Midsem)
-* Oct 5  (Slept late)
-* Oct 7
-* Oct 28 
-
-**Dynamical Systems**
-
-* Sep 2- Lec, Lab
-* Sep 5 (Stomach Ache)
-* Sep 9 - Lec, Lab
-* Sep 16 - Lec, Lab
-* Sep 19
-* Sep 21
-* Sep 23 - Lec, Lab
-
-
-**Software Engineering**
-
-* Aug 23
-* Aug 24 (Extra Class 9pm)
-* Sep 6 (Overslept)
-* Sep 15 (Special Class 8pm)
-* Sep 19 (Sleepig, Quiz-2)
-* Sep 25 
-* Oct 27 (Simran bday)
-
-**Networking**
-
-* Aug 23
-* Sep 8 (Revision class)
-* Sep 27 (Linear MidSem)
-* Sep 28 - Lab (Linear MidSem)
-* Nov 1 (Bhai dooj)
-
-**Poetry Appreciation**
-
-* Aug 29
-* Sep 5 (Stomach Ache)
-* Sep 16
-
-**Mathematics In India**
-
-* Oct 7
-* Oct 19
-* Oct 21
-
-**Wireless**
-
-* Oct 19
-
 # Poetry Course
 **Aug 3** | Lec-2
 
@@ -116,18 +55,18 @@ If you do believe their interpretation of ring around the roses, then believe it
 Okay. So a couple of things i realised while taking a shot at my first drawing:
 
 1. Draw big. 
-	Whenever we start for the first time, we tend to make tiny image. Buy a big sketch book. Cover atleast 40% of the area with the subject.
-	The bigger the sketch is, the more engrossing it is to the viewer. 
+   Whenever we start for the first time, we tend to make tiny image. Buy a big sketch book. Cover atleast 40% of the area with the subject.
+   The bigger the sketch is, the more engrossing it is to the viewer. 
 
 2. Have a background.
-	A sketch looks a lot better with some initial haphazard shading before starting the subject.
+   A sketch looks a lot better with some initial haphazard shading before starting the subject.
 
 3. Have a variety of tools.
-	Before starting a sketch, have a couple of different pencils with you. Try out all the Bs and the Hs and figure out what they do by using them in a variety of pressures. Also charcoal, if possible, gives a greater flowy tonality. This will help you to achieve what's in your mind better on paper.
+   Before starting a sketch, have a couple of different pencils with you. Try out all the Bs and the Hs and figure out what they do by using them in a variety of pressures. Also charcoal, if possible, gives a greater flowy tonality. This will help you to achieve what's in your mind better on paper.
 
 4. Do not fuss/erase over something to achieve the "perfect" curve.
-	You will feel the urge to erase one part over and over again because it isn't the perfect curve you want! 
-	But keep going my friend, do not stop and waste time over it. In hindsight you shall see that in the end the drawing will come out to be just fine and that curve would look pretty good too.
+   You will feel the urge to erase one part over and over again because it isn't the perfect curve you want! 
+   But keep going my friend, do not stop and waste time over it. In hindsight you shall see that in the end the drawing will come out to be just fine and that curve would look pretty good too.
 
 ```
 mantra_to_good_drawing(){
