@@ -11,7 +11,7 @@
 }
 
 .navbar-custom .nav li a{
-  color: #fff !important;
+  /*color: #fff !important;*/
   font-weight: 800;
   font-size:14px;
 }
@@ -43,7 +43,7 @@
 
 @media only screen and (max-width:1500px){
   .avatar-container{
-    opacity:0 !important;
+    /*opacity:0 !important;*/
   }
 }
 
