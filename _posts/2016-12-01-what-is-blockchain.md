@@ -7,7 +7,7 @@ tags: [money, cryptocurrency]
 ---
 
 This isn't an ELI5 explanation. It is a bit involved.
-[Demo website](//vishalgauba.me/blockchain-demo)[^1] accompanying the explanation below. 
+[Demo website](//glacial-lake-71308.herokuapp.com/)[^1] accompanying the explanation below. 
 
 If you fancy video instead of text, here is a very explanatory [YouTube video](https://www.youtube.com/watch?v=_160oMzblY8) regarding blockchain. 
 
