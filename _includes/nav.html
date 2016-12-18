@@ -7,7 +7,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" style="border: none !important" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+      {% if site.title-img %}
+        <!-- style="border: none !important" -->
+        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}{{ site.baseurl }}"><img src="{{ site.title-img }}"/></a>
+      {% else %}
+        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+      {% endif %}
+
     </div>
 
     <div class="collapse navbar-collapse" id="main-navbar">
