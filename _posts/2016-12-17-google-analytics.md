@@ -2,8 +2,6 @@
 layout: post
 title: Google Analytics for n00bs
 subtitle: Basic getting started / Reference
-category: 
-tags: []
 ---
 
 ## Intro

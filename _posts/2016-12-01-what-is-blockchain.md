@@ -2,7 +2,6 @@
 layout: post
 title: Blockchain
 subtitle: What is Blockchain? How is it related to Bitcoin?
-category: 
 tags: [money, cryptocurrency]
 ---
 

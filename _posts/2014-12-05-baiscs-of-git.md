@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basics Of Git
-categories: Dev
+category: Dev
 tags: [git, stackoverflow]
 ---
 

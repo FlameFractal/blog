@@ -3,10 +3,10 @@ layout: page
 title: My weblog
 subtitle: Press 'Esc' or '/' to Search this space.
 bigimg:
-- "img/home-bg.jpg"
-- "img/post-bg.jpg"
-- "img/about-bg.jpg"
-- "img/contact-bg.jpg"
+- "img/home-bg.jpg" : "Facets by Justin Maller"
+- "img/post-bg.jpg" : "Facets by Justin Maller"
+- "img/about-bg.jpg" : "Facets by Justin Maller"
+- "img/contact-bg.jpg" : "Facets by Justin Maller"
 ---
 
 
@@ -35,7 +35,10 @@ bigimg:
   
     {% if post.tags.size > 0 %}
         <div class="blog-tags">
-          Tags:
+          {% if post.categories %}
+            Posted in <a href="{{ site.baseurl }}/categories/#{{ post.categories.first | slugify }}">{{ post.categories }}</a> with
+          {% endif %}
+          <i class="fa fa-tag" aria-hidden="true"></i>:
           {% if site.link-tags %}
           {% for tag in post.tags %}
             <a href="/tag/{{ tag }}">{{ tag }}</a>

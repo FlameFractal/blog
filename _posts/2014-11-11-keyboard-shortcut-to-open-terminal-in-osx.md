@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Keyboard shortcut to open Terminal in OSX
-categories: Dev
+category: Dev
 tags: [osx, terminal]
 ---
 
