@@ -18,7 +18,10 @@ layout: base
 
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
-          Posted in <a href="{{ site.baseurl }}/categories/#{{ post.categories.first | slugify }}">{{ post.categories }}</a> with <i class="fa fa-tag" aria-hidden="true"></i>:
+        {% if post.categories.size > 0 %}
+          Posted in <a href="{{ site.baseurl }}/categories/#{{ post.categories.first | slugify }}">{{ post.categories }}</a> with
+         {% endif %}
+         <i class="fa fa-tag" aria-hidden="true"></i>: 
           {% if site.link-tags %}
           {% for tag in page.tags %}
             <a href="/tag/{{ tag }}">{{ tag }}</a>
