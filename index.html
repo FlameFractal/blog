@@ -44,7 +44,7 @@ bigimg:
             <a href="/tag/{{ tag }}">{{ tag }}</a>
           {% endfor %}
           {% else %}
-            {{ post..tags | join: ", " }}
+            {{ post.tags | join: ", " }}
           {% endif %}
         </div>
       {% endif %}
