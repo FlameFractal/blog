@@ -9,11 +9,8 @@ Wait, what?
 - This page is supposed to talk about me?
 - Add something else here probably later
 - Like my habit of forgetting
-  1. cheeky
-  2. i like it
+  1. things
+  2. all the time.
 
-What else do you need?
 
-### My history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just talk directly to me [here](mailto:vishg8@outlook.com) and I will answer **all** your questions.
+P.S. Social links down below!
