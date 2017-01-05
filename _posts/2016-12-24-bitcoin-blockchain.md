@@ -1,9 +1,7 @@
 ---
 layout: post
-title: TIL : Bitcoin blockchain
-subtitle: and a little about Satashi Nakomoto
-category: til
-tags: [bitcoin, cryptocurrency]
+published: false
+title: 2016-12-24-bitcoin-blockchain.md
 ---
 
 TIL that entire bitcoin blockchain is over 107GB to date (December 2016) from the beginning in 2009.
