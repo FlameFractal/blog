@@ -3,20 +3,27 @@ layout: post
 title: 5 products to check out
 subtitle: FILL THIS UP
 category: ideas
-tags: [ideas]
+tags:
+  - ideas
+published: false
 ---
+
+Edit:
+5 added. Check by Jan 12!
 
 Once this has 5 products below, then I will check them out within one week from then.
 
-- [Workflowy](https://workflowy.com/) 
-- [RescueTime](https://www.rescuetime.com/)
-- [NoteBold](http://notebold.com/)
+1. [Workflowy](https://workflowy.com/) 
+2. [RescueTime](https://www.rescuetime.com/)
+3. [NoteBold](http://notebold.com/)
+4. [Exercism.io] (http://exercism.io/)
+5. RX-Modulator & Gitfiti - Play with Github Contribution Chart 
 
 
 
-Edits:
-
-3. 22 Dec: Added RescueTime
-2. 22 Dec: Added NoteBold
-1. 22 Dec: Added Workflowy
-{: reversed="reversed"}
+Edits:  
+1. 22 Dec
+2. 22 Dec
+3. 22 Dec
+4. 05 Jan
+5. 05 Jan
