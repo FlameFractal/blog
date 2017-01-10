@@ -4,7 +4,7 @@ title: TEMPLATE POST
 subtitle: FILL THIS UP
 category: [drafts] 
 bigimg: 
-- "/img/*.jpg"
+- "/img/*.jpg" : "draft image"
 tags: [drafts]
 ---
 

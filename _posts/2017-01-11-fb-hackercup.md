@@ -4,7 +4,7 @@ title: Facebook Hacker Cup 2017
 subtitle: Qualification Round
 category: [dev]
 bigimg: 
--"/img/fb-hackercup.jpg"
+- "/img/fb_hackercup.jpg" : "facebook hackercup"
 tags: [dev]
 ---
 
