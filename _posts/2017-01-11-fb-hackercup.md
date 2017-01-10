@@ -5,7 +5,7 @@ subtitle: Qualification Round
 category: [dev]
 bigimg: 
 -"/img/fb-hackercup.jpg"
-tags: []
+tags: [dev]
 ---
 
 My solution for the Progress Pie problem.
