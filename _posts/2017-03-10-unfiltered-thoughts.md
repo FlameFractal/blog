@@ -1,16 +1,12 @@
 ---
 layout: post
-published: true
-title: 2017-03-10-Unfiltered-thoughts
----
----
-layout: post
+published: false
 title: Unfiltered thoughts
-subtitle: -refine-this-later
+subtitle: '-refine-this-later'
 category: Thoughts
-tags: [draft]
+tags:
+  - draft
 ---
-
 ## Unfiltered, unedited, unrefined thoughts.
 Todo: refine and create seperate posts.
 
