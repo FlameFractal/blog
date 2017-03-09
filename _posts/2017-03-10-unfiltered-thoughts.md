@@ -6,7 +6,7 @@ subtitle: '-refine-this-later'
 category: Thoughts
 tags:
   - draft
-date: '2013-03-10'
+date: '2017-03-10'
 ---
 ## Unfiltered, unedited, unrefined thoughts.
 Todo: refine and create seperate posts.
