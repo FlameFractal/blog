@@ -14,7 +14,7 @@ bigimg:
 <div class="posts-list">
   {% for post in paginator.posts %}
   {% if post.secret %}
-  	{% continue %}
+  	<a></a>
   {% else %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">

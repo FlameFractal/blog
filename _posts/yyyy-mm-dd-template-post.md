@@ -6,6 +6,7 @@ category: [drafts]
 bigimg: 
 - "/img/*.jpg" : "draft image"
 tags: [drafts]
+secret: true
 ---
 
 DRAFT  

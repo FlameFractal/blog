@@ -4,6 +4,7 @@ title: Project Ideas
 subtitle: List of random ideas/thoughts over time
 category: ideas
 tags: [ideas, random]
+secret: true
 ---
 
 1.  visualping.io

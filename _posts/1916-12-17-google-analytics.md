@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Google Analytics for n00bs
+secret: true
 subtitle: Basic getting started / Reference
 ---
 

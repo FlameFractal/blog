@@ -4,6 +4,7 @@ title: App Detox - Review
 subtitle: App to cure your app addiction
 category: app review
 tags: [app, review]
+secret: true
 ---
 
 Almost what I was looking for. But a few things missing:

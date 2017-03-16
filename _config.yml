@@ -60,7 +60,7 @@ author:
   instagram: vishg8 # eg. daattali
   youtube: yourlink   # eg. user/daattali or channel/daattali
   spotify: vishg8   # eg. daattali
-  telephone: +917042841262   # eg. +14159998888
+  # telephone: +917042841262   # eg. +14159998888
 
 # Select which links to show in the footer
 footer-links-active:
@@ -78,7 +78,7 @@ footer-links-active:
   instagram: true
   youtube: false
   spotify: true
-  telephone: true
+  # telephone: true
 
 # Select which share links to show in posts
 share-links-active:

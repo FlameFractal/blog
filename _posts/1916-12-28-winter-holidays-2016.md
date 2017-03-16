@@ -4,6 +4,7 @@ title: Winter Holidays (December '16)
 subtitle: 
 category: personal
 tags: [personal]
+secret: true
 ---
 
 Winter Holidays - December 2016

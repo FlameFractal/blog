@@ -4,6 +4,7 @@ title: 5 products to check out
 subtitle: FILL THIS UP
 category: ideas
 tags: [ideas]
+secret: true
 ---
 
 Edit:

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Personal
+secret: true
 ---
 
 <style>
