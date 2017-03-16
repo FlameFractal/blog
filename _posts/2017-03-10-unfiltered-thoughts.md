@@ -1,6 +1,7 @@
 ---
 layout: post
 published: true
+secret: true
 title: Unfiltered thoughts
 subtitle: '-refine-this-later'
 category: Thoughts
