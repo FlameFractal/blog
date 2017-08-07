@@ -29,7 +29,7 @@ public class JavaApplication7 {
     static int ymax = 2;
 
 	public static void main(String[] args) {
-        int arr[][] = "{{0, 0, 1}, {0, 1, 1}, {1, 1, 9"}};
+        int arr[][] = &#123; &#123; 0, 0, 1}, {0, 1, 1}, {1, 1, 9 &#125; &#125; ;
         maze(arr, 0, 0, 1, 1);
     }
     
