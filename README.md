@@ -1,5 +1,33 @@
-[Link to the website](//flamefractal.github.io/)
-=======
+### Installation
+
+- Install Ruby
+  ```
+  brew install ruby
+  export PATH=/usr/local/opt/ruby/bin:$PATH
+  which ruby
+  ruby -v
+  export PATH=$HOME/.gem/ruby/2.6.0/bin:$PATH
+  gem env
+  ```
+- Install Bundler & Jekyll
+  ```
+  gem install --user-install bundler jekyll
+  sudo gem install bundler
+  sudo gem install -n /usr/local/bin/ jekyll
+  ```
+- Install Dependencies (in gemfile, using bundler)
+  ```
+  bundle update
+  bundler install
+  ```
+- Serve
+  ```
+  bundle exec jekyll serve --port 4001
+  ```
+
+### Original Jekyll ReadMe
+
+
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/daattali/20)
 [![Gem Version](https://badge.fury.io/rb/beautiful-jekyll-theme.svg)](https://badge.fury.io/rb/beautiful-jekyll-theme)
 
