@@ -33,7 +33,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.png"
+avatar: "/img/avatar.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -63,7 +63,7 @@ author:
 # Select which links to show in the footer
 footer-links-active:
   rss: true
-  facebook: true
+  facebook: false
   email: false
   twitter: true
   google-plus: false
@@ -80,20 +80,20 @@ footer-links-active:
 
 # Select which share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
+  twitter: false
+  facebook: false
   google: false
-  linkedin: true
+  linkedin: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 
 # Modified to display whatever link is defined here
-url-pretty: "vishalgauba.me"  # eg. "deanattali.com/beautiful-jekyll"
+#url-pretty: "vishalgauba.me"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-disqus: "flamefractal"
+#disqus: "flamefractal"
 
 # Fill in your Google Analytics ID to track your website using GA
 google_analytics: "UA-89136252-1"
@@ -103,7 +103,7 @@ google_analytics: "UA-89136252-1"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
-excerpt_length: 30
+excerpt_length: 20
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
@@ -125,8 +125,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # all files
@@ -135,7 +135,7 @@ defaults:
       show-avatar: true
 
 # Use tags pages (not recommended if you are deploying via GitHub pages, only set to true if deploying locally with ruby)
-link-tags: true
+link-tags: false
 
 # Exclude these files from production site
 exclude:
