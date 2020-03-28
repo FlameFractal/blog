@@ -32,6 +32,13 @@ Enter, Blockchain.
 
 Blockchain is the underlying technology that actually enables Bitcoin. Without Blockchain, Bitcoins are nothing but a garbage file on your computer.
 
+Fun Facts
+
+- Entire bitcoin blockchain is over **107GB** to date (December 2016) from the beginning in 2009.
+- Here's the [original paper by Satashi Nakomoto](https://web.archive.org/web/20140320135003/https://bitcoin.org/bitcoin.pdf) (that i hope to read in my free time)
+- He first introduced this paper for discussion in a P2P forum thread (oh the good ol' days of early internet).
+
+
 **Conceptually**
 
 - It is a ledger
