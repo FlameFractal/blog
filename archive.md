@@ -44,7 +44,7 @@ subtitle: History of all the posts
     {% endunless %}
     <tr>
       <td><time>{{ post.date | date:"%d %b, %Y" }}</time></td>
-      <td><a href="{{ post.url }}">{{ post.title }}</a></td>
+      <td><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></td>
     </tr>
 
     {% endfor %}

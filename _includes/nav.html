@@ -9,9 +9,9 @@
       </button>
       {% if site.title-img %}
         <!-- style="border: none !important" -->
-        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}{{ site.baseurl }}"><img src="{{ site.title-img }}"/></a>
+        <a class="navbar-brand navbar-brand-logo" href="{{ site.url }}{{ site.baseurl }}/"><img src="{{ site.title-img }}"/></a>
       {% else %}
-        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a>
+        <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">{{ site.title }}</a>
       {% endif %}
 
     </div>
@@ -66,7 +66,7 @@
   {% if site.avatar and (layout.show-avatar or page.show-avatar) %}
   <div class="avatar-container">
    <div class="avatar-img-border">
-     <a href="{{ site.url }}{{ site.baseurl }}">
+     <a href="{{ site.url }}{{ site.baseurl }}/">
        <img class="avatar-img" src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" />
      </a>
    </div>
