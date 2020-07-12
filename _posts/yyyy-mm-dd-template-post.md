@@ -3,10 +3,10 @@ layout: post
 title: TEMPLATE POST
 subtitle: FILL THIS UP
 category: [drafts] 
-bigimg: 
-- "/img/*.jpg" : "draft image"
+[//]: # bigimg: 
+[//]: # - "/img/*.jpg" : "draft image"
 tags: [drafts]
-secret: true
+[//]: # secret: true
 ---
 
 DRAFT  
