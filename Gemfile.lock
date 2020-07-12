@@ -125,6 +125,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (1.5.3)
+    rake (13.0.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -155,6 +156,10 @@ DEPENDENCIES
   github-pages (= 106)
   jekyll-paginate
   jemoji
+  rake
+
+RUBY VERSION
+   ruby 2.6.3p62
 
 BUNDLED WITH
-   1.13.7
+   1.17.2
